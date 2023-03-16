@@ -1,0 +1,55 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #1d2538;
+  position: relative;
+}
+
+.contrain {
+  overflow: hidden;
+  position: absolute;
+  width: 140px;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+  margin-left: -70px;
+  margin-top: -50px;
+  z-index: 1;
+}
+
+.go,
+.main,
+.oo {
+
+  background-color: #252E43;
+  color: white
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: large;
+}
+
+.navbar {
+  background-color: #769cf5;
+
+}
+
+.sam {
+  background-color: blue;
+  color: white
+}
+/* #js-constrain{
+  width: 500px !important;
+  height: 249px;
+  top: 36% !important;
+  position: absolute !important;
+  left: 44% !important;
+  overflow: auto;
+} */
